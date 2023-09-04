@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right, #182625, #28403D);
+    text-align: center;
+    color: white;
+}
+a{  
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+a:visited{
+    color: violet;
+}

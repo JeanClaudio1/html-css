@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+ /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = classes
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,#2EAEF0, #2FEAFA, #36E3C0, #2FFA98, #2EF05B);
+    background-attachment: fixed;
+}
+
+h1{ 
+    text-decoration: underline;
+   color: #014040; 
+}
+
+h2{
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cor{
+    color: purple;
+  
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#cor:hover{
+    color: blue;
+  
+}
+
+#cor:active{
+    color: yellow;
+}
+
+#cor:visited{
+    color: #5F2F8B;
+}
+
+a:visited{
+    color: #5F2F8B;
+}
+
+a:active{
+    color: yellow;
+}
+a::before{
+    content: ' ⇒ ';
+}
+a::after{
+    content: ' ⇐ ';
+}
+
