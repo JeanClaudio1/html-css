@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fixando imagem</title>
     <style>
         body{
             height: 100vh;
-            overflow: hidden;
+        /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+        */
+
+        /*
+            Shorthand - background
+            color > image > position > repeat > [size]
+            >attachment
+        */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+
         }
         main{
             background-color: white;
@@ -27,6 +38,15 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, et eum, totam voluptatum culpa quo illo explicabo alias accusantium ipsa cupiditate voluptas? Debitis sint nulla labore eius odit consectetur.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptas suscipit cumque non aspernatur eos nemo cupiditate facere rem quia nam odio, nobis eum tenetur aperiam officiis voluptates iusto deleniti?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, et eum, totam voluptatum culpa quo illo explicabo alias accusantium ipsa cupiditate voluptas? Debitis sint nulla labore eius odit consectetur.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptas suscipit cumque non aspernatur eos nemo cupiditate facere rem quia nam odio, nobis eum tenetur aperiam officiis voluptates iusto deleniti?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, et eum, totam voluptatum culpa quo illo explicabo alias accusantium ipsa cupiditate voluptas? Debitis sint nulla labore eius odit consectetur.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptas suscipit cumque non aspernatur eos nemo cupiditate facere rem quia nam odio, nobis eum tenetur aperiam officiis voluptates iusto deleniti?
+        </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, et eum, totam voluptatum culpa quo illo explicabo alias accusantium ipsa cupiditate voluptas? Debitis sint nulla labore eius odit consectetur.
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptas suscipit cumque non aspernatur eos nemo cupiditate facere rem quia nam odio, nobis eum tenetur aperiam officiis voluptates iusto deleniti?
         </p>
