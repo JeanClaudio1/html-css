@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
-@media screen and(min-width: 600px) and (max-width: 768px){
-    
+@media screen and (min-width: 300px) and (max-width: 768px){
+
+    body {
+        overflow: hidden;
+    }
+    .container {
+        width: 420px;
+        height: 496px;
+        flex-direction: column;
+        padding-top: 50px;
+       
+    }
+
+   .frase {
+        width: 400px;
+        height: 112px;
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+    .container > .frase > .letras {
+        font-size: 24px;
+        line-height: 28px;
+    }
 }
