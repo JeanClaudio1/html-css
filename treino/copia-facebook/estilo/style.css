@@ -28,7 +28,6 @@ body {
     height: 298px;
     width: 548px;
     margin-right: 35px;
-
 }
 
 .frase img {
@@ -51,7 +50,6 @@ body {
     height: 496px;
 }
 
-
 .recurso {
     width: 396px;
     height: 350px;
@@ -64,26 +62,28 @@ body {
     
 }
 
-.recurso label input {
+ .container >.login > .recurso > label > input {
     width: 360px;
     height: 50px;
-    border: 1px solid #DDDFE2;
-}
-
-label input {
     margin-bottom: 12px;
     border-radius: 6px;
-    
+    padding-left: 15px;  
+    border: 1px solid #DDDFE2;
+    caret-color: #1B74E4;
 }
 
-label input:hover{
-    outline: #E7F3FF;
-}
 label input::placeholder {
-    text-indent: 15px;
     font-size: 17px;
-    color: #90949C;
+    color: #90949c;
+}
 
+.container > .login > .recurso > label > input:focus {
+    box-shadow: 0.1px 0.1px 0px 2.5px #E7F3FF;
+    outline: 0.6px solid #1B74E4;
+}
+
+label input:focus::placeholder {
+    color: #bbbfc8;
 }
 
 .entrar {
@@ -115,7 +115,6 @@ a:hover {
 .hr-container {
     text-align: center;
     margin: 20px 20px;
-   
 }
 
 hr {
