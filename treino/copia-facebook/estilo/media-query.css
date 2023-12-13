@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 300px) and (max-width: 768px){
+@media screen and (min-width: 300px) and (max-width: 1000px){
 
     body {
         overflow: hidden;
@@ -10,14 +10,21 @@
         height: 496px;
         flex-direction: column;
         padding-top: 50px;
-       
     }
 
-   .frase {
+    .container > .frase {
         width: 400px;
         height: 112px;
         text-align: center;
-        margin-bottom: 120px;
+        margin: 0 auto 120px;
+    }
+
+    .container .frase br {
+        display: none;
+    }
+
+    .container > .login {
+        margin: auto;
     }
 
     .container > .frase > .letras {

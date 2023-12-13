@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Facebook</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
@@ -11,7 +11,7 @@
     <div class="container">
         <div class="frase">
             <img src="imagens/projeto.svg" alt="Facebook">
-            <p class="letras" onresize="">O Facebook ajuda você a se conectar e compartilhar com as pessoas que<br>fazem parte da sua vida.
+            <p class="letras">O Facebook ajuda você a se conectar e compartilhar com as pessoas que <br>fazem parte da sua vida.
             </p>
         </div>
         <div class="login">
@@ -30,19 +30,5 @@
                 </div>
         </div>
     </div>
-    <script>
-        window.addEventListener('resize', function() {
-         var screenWidth = window.innerWidth;
-         var letrasElement = document.querySelector('.letras');
-         if (screenWidth >= 300 && screenWidth <= 768) {
-             letrasElement.innerHTML = "O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.";
-         } else {
-             if (!letrasElement.innerHTML.includes('<br>')) {
-                 letrasElement.innerHTML = "O Facebook ajuda você a se conectar e compartilhar com as pessoas que <br> fazem parte da sua vida.";
-             }
-         }
-     });
-     window.dispatchEvent(new Event('resize'));
-     </script>
 </body>
 </html>
